@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/EmployeeForm.css">
     <link rel="shortcut icon" href="../Assets/icons/logo.png" type="image/x-icon">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="../Scripts/EmployeeData.js"></script>
     <title>Employee Payroll</title>
 </head>
 
@@ -66,31 +68,31 @@
                 <label for="name" id="department">Department</label>
                 <div class="space">
                     <div class="Image">
-                        <input type="checkbox" name="dept">
+                        <input type="checkbox" name="dept" value="HR">
                         <p>HR</p>
                     </div>
                     <div class="Image">
-                        <input type="checkbox" name="dept">
+                        <input type="checkbox" name="dept" value="Sales">
                         <p>Sales</p>
                     </div>
                     <div class="Image">
-                        <input type="checkbox" name="dept">
+                        <input type="checkbox" name="dept" value="Finance">
                         <p>Finance</p>
                     </div>
                     <div class="Image">
-                        <input type="checkbox" name="dept">
+                        <input type="checkbox" name="dept" value="Engineer">
                         <p>Engineer</p>
                     </div>
                     <div class="Image">
-                        <input type="checkbox" name="dept">
+                        <input type="checkbox" name="dept" value="Others">
                         <p>Others</p>
                     </div>
                 </div>
             </div>
             <div class="elements">
-                <label for="range" id="salary">Salary </label>
+                <label for="range" >Salary </label>
                 <div>
-                    <select name="salary" class="Salary">
+                    <select name="salary" id="salary" class="Salary">
                         <option value="" disabled selected>Select Salary</option>
                         <option value="25000">25000</option>
                         <option value="25000">30000</option>
@@ -105,7 +107,7 @@
                 <label for="range" id="date">Start Date </label>
                 <div class="StartDate">
                     <div>
-                        <select name="day" class="Date">
+                        <select name="Day" id="Day" class="Date">
                             <option value="" disabled selected>Day</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -141,7 +143,7 @@
                         </select>
                     </div>
                     <div>
-                        <select name="Month" id="month" class="Date">
+                        <select name="Month" id="Month" class="Date">
                             <option value="" disabled selected>Month</option>
                             <option value="Jan">January</option>
                             <option value="Feb">February</option>
@@ -159,7 +161,7 @@
                     </div>
 
                     <div>
-                        <select name="Year" id="" class="Date">
+                        <select name="Year" id="Year" class="Date">
                             <option value="" disabled selected>Year</option>
                             <option value="2022">2022</option>
                             <option value="2021">2021</option>

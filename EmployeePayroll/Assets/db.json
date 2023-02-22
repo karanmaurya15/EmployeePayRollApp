@@ -1,0 +1,33 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Karan",
+      "profileUrl": "../Assets/profile-images/Pic-1.png",
+      "gender": "male",
+      "departMent": [
+        "Engineer"
+      ],
+      "salary": "50000",
+      "day": "2",
+      "month": "March",
+      "year": "2020",
+      "notes": " "
+    },
+    {
+      "name": "Saurabh",
+      "profileUrl": "../Assets/profile-images/Pic-2.png",
+      "gender": "male",
+      "departMent[]": [
+        "HR",
+        "Finance"
+      ],
+      "salary": "25000",
+      "day": "16",
+      "month": "Nov",
+      "year": "2021",
+      "notes": "kk",
+      "id": 2
+    }
+  ]
+}
