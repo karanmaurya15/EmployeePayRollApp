@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/DashBoard.css">
+    <link rel="shortcut icon" href="../Assets/icons/logo.png" type="image/x-icon">
+    <title>DashBoard</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../Assets/icons/logo.png" alt="logo">
+            <div class="text">
+                <span class="emp">EMPLOYEE</span>
+                <span>PAYROLL</span>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="header-content sub-main-content">
+            <div class="emp-details-text">
+                Employee Details
+            </div>
+            <div onclick="location.href='./employeeform.html'" class="add-button">
+                <div class="plus-icon">
+                    <img src="../assets/icons/add-24px.svg" alt="Add user logo">
+                </div>
+                <div>Add User</div>
+            </div>
+        </div>
+        <div class="table-main">
+            <table id="display" class="table">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Start Date</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td><img class="profile" alt="" src="../Assets/profile-images/Pic-3.png">
+                    </td>
+                    <td>Karan</td>
+                    <td>Male</td>
+                    <td>
+                        <div class="dept-label">ENGINEER</div>
+                    <td>50000</td>
+                    <td>29 Dec 2020</td>
+                    <td>
+                        <img src="../Assets/icons/delete-black-18dp.svg">
+                        <img src="../Assets/icons/create-black-18dp.svg">
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
