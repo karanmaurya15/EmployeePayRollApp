@@ -7,11 +7,10 @@ function SubmitForm(){
 
     var selectedGender = $('input[name="gender"]:checked').val();
     console.log(selectedGender);
-    
-     var selectedDepartment = [];
-    $('input[name="dept"]:checked').each(function(i) {
-        selectedDepartment[i] = $(this).val();
-    //  selectedDepartment.push($(this).val());
+
+     var selectedDepartment =[] ;
+    $('input[name="dept"]:checked').each(function() {
+        selectedDepartment.push( $(this).val());
     });
     console.log(selectedDepartment);
 
@@ -32,9 +31,7 @@ function SubmitForm(){
         "gender": selectedGender,
         "departMent": selectedDepartment,
         "salary": salary,
-        "day": day,
-        "month": month,
-        "year": year,
+        "startDate":day + month + year,
         "notes": note
       }
       console.log(reqPayLoad);
@@ -50,5 +47,5 @@ function SubmitForm(){
         error: function (xhr, textStatus, errorThrown) {
             console.log('Error in Operation');
         }
-    })
+  })
 }

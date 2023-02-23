@@ -9,24 +9,17 @@
         "Engineer"
       ],
       "salary": "50000",
-      "day": "2",
-      "month": "March",
-      "year": "2020",
+      "startDate": "2 March 2020",
       "notes": " "
     },
     {
-      "name": "Saurabh",
+      "name": "hggjngmk",
       "profileUrl": "../Assets/profile-images/Pic-2.png",
       "gender": "male",
-      "departMent[]": [
-        "HR",
-        "Finance"
-      ],
+      "departMent[]": "HR",
       "salary": "25000",
-      "day": "16",
-      "month": "Nov",
-      "year": "2021",
-      "notes": "kk",
+      "startDate": "19Nov2021",
+      "notes": "yjhyuj",
       "id": 2
     }
   ]
