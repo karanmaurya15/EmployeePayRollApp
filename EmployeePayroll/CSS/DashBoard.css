@@ -81,13 +81,13 @@ body {
 }
 
 td,th {
-    text-align: center;
+    text-align: left;
     padding: 5px 8px;
 }
 th {
     background: #42515F 0% 0% no-repeat padding-box;
     height: 40px;
-    text-align: center;
+    text-align: left;
     font: normal normal medium 18px/24px Roboto;
     color: #ffffff;
     opacity: 1;

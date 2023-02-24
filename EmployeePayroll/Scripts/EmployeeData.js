@@ -8,10 +8,8 @@ function SubmitForm(){
     var selectedGender = $('input[name="gender"]:checked').val();
     console.log(selectedGender);
 
-     var selectedDepartment =[] ;
-    $('input[name="dept"]:checked').each(function() {
-        selectedDepartment.push( $(this).val());
-    });
+     var selectedDepartment = $('input[name="dept"]:checked').val();
+    
     console.log(selectedDepartment);
 
     var salary = $('#salary').val();
@@ -31,7 +29,7 @@ function SubmitForm(){
         "gender": selectedGender,
         "departMent": selectedDepartment,
         "salary": salary,
-        "startDate":day + month + year,
+        "startDate": day + ' ' + month  + ' ' + year,
         "notes": note
       }
       console.log(reqPayLoad);

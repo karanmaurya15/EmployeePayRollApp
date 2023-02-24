@@ -2,9 +2,9 @@
   "employee": [
     {
       "id": 1,
-      "profileUrl": "../Assets/profile-images/Pic-1.png",
+      "profileUrl": "../Assets/profile-images/Pic-3.png",
       "name": "Karan",
-      "gender": "male",
+      "gender": "Male",
       "departMent": [
         "Engineer"
       ],
@@ -13,17 +13,24 @@
       "notes": " "
     },
     {
-      "name": "Amit",
+      "name": "Shubham Singh",
       "profileUrl": "../Assets/profile-images/Pic-2.png",
-      "gender": "male",
-      "departMent[]": [
-        "HR",
-        "Finance"
-      ],
+      "gender": "Male",
+      "departMent": "HR",
       "salary": "25000",
-      "startDate": "18Nov2020",
-      "notes": "kk",
+      "startDate": "19 June 2019",
+      "notes": "SS",
       "id": 2
+    },
+    {
+      "name": "Parminder",
+      "profileUrl": "../Assets/profile-images/Pic-1.png",
+      "gender": "Female",
+      "departMent": "HR",
+      "salary": "25000",
+      "startDate": "19 March 2022",
+      "notes": "PP",
+      "id": 3
     }
   ]
 }

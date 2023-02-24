@@ -5,23 +5,18 @@ $.ajax({
     success: function (data) {
         var tableBody = $('#display tbody');
 
-        for (var i = 0; i < response.length; i++) {
-            // Create a new table row
-            var row = $("<tr>");
-
-        // $.each(data, function (index, employee) {
-        //     var row = $('<tr>');
-            row.append($('<td>').text(response[i].profileUrl));
-            row.append($('<td>').text(response[i].name));  
-            row.append($('<td>').text(response[i].gender));
-            row.append($('<td>').text(response[i].departMent));
-            row.append($('<td>').text(response[i].salary));
-            row.append($('<td>').text(response[i].startDate));
+        $.each(data, function (index, employee) {
+            var row = $('<tr>');
+            row.append($('<td>').html('<img src="' + employee.profileUrl + '">'));
+            row.append($('<td>').text(employee.name));  
+            row.append($('<td>').text(employee.gender));
+            row.append($('<td>').text(employee.departMent));
+            row.append($('<td>').text(employee.salary));
+            row.append($('<td>').text(employee.startDate));
             var actions = $('<td>');
-            actions.append($('<button>').text('Edit').click(function () {
-            
+            actions.append($('<img>').attr('src', '../Assets/icons/create-black-18dp.svg').click(function () {
             }));
-            actions.append($('<button>').text('Delete').click(function () {
+            actions.append($('<img>').attr('src', '../Assets/icons/delete-black-18dp.svg').click(function () {
             }));
             row.append(actions);
 
