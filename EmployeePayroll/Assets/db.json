@@ -13,24 +13,24 @@
       "notes": " "
     },
     {
-      "name": "Shubham Singh",
-      "profileUrl": "../Assets/profile-images/Pic-2.png",
+      "name": "Karan Kushwaha",
+      "profileUrl": "../Assets/profile-images/Pic-3.png",
       "gender": "Male",
-      "departMent": "HR",
+      "departMent": "Engineer",
       "salary": "25000",
-      "startDate": "19 June 2019",
-      "notes": "SS",
+      "startDate": "13 Aug 2020",
+      "notes": "KK",
       "id": 2
     },
     {
       "name": "Parminder",
       "profileUrl": "../Assets/profile-images/Pic-1.png",
       "gender": "Female",
-      "departMent": "HR",
+      "departMent": "Sales",
       "salary": "25000",
-      "startDate": "19 March 2022",
-      "notes": "PP",
-      "id": 3
+      "startDate": "7 Oct 2018",
+      "notes": "Pam",
+      "id": 4
     }
   ]
 }
