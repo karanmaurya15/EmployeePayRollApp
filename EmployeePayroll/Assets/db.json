@@ -8,7 +8,7 @@
       "salary": "25000",
       "startDate": "7 Oct 2018",
       "notes": "Pam",
-      "id": 4
+      "id": 1
     },
     {
       "name": "Amit",
@@ -18,17 +18,17 @@
       "salary": "25000",
       "startDate": "18 Oct 2021",
       "notes": "kk",
-      "id": 5
+      "id": 2
     },
     {
-      "name": "Karan",
-      "profileUrl": "../Assets/profile-images/Pic-3.png",
+      "name": "shubham singh ",
+      "profileUrl": "../Assets/profile-images/Pic-2.png",
       "gender": "Male",
-      "departMent": "HR",
+      "departMent": "Sales",
       "salary": "30000",
-      "startDate": "19 Nov 2019",
-      "notes": "kk",
-      "id": 6
+      "startDate": "16 Oct 2022",
+      "notes": "ss",
+      "id": 3
     }
   ]
 }
