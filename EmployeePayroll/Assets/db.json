@@ -1,28 +1,6 @@
 {
   "employee": [
     {
-      "id": 1,
-      "profileUrl": "../Assets/profile-images/Pic-3.png",
-      "name": "Karan",
-      "gender": "Male",
-      "departMent": [
-        "Engineer"
-      ],
-      "salary": "50000",
-      "startDate": "2 March 2020",
-      "notes": " "
-    },
-    {
-      "name": "Karan Kushwaha",
-      "profileUrl": "../Assets/profile-images/Pic-3.png",
-      "gender": "Male",
-      "departMent": "Engineer",
-      "salary": "25000",
-      "startDate": "13 Aug 2020",
-      "notes": "KK",
-      "id": 2
-    },
-    {
       "name": "Parminder",
       "profileUrl": "../Assets/profile-images/Pic-1.png",
       "gender": "Female",
@@ -31,6 +9,26 @@
       "startDate": "7 Oct 2018",
       "notes": "Pam",
       "id": 4
+    },
+    {
+      "name": "Amit",
+      "profileUrl": "../Assets/profile-images/Pic-2.png",
+      "gender": "Male",
+      "departMent": "HR",
+      "salary": "25000",
+      "startDate": "18 Oct 2021",
+      "notes": "kk",
+      "id": 5
+    },
+    {
+      "name": "Karan",
+      "profileUrl": "../Assets/profile-images/Pic-3.png",
+      "gender": "Male",
+      "departMent": "HR",
+      "salary": "30000",
+      "startDate": "19 Nov 2019",
+      "notes": "kk",
+      "id": 6
     }
   ]
 }

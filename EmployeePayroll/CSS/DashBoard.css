@@ -77,7 +77,7 @@ body {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0 10px;
-    min-width: px;
+    min-width: 800px;
 }
 
 td,th {
@@ -92,12 +92,29 @@ th {
     color: #ffffff;
     opacity: 1;
 }
+tr:not(:first-child) {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+}
 
 td {
     font: normal normal normal 14px/21px Roboto;
     letter-spacing: 0px;
     color: #3d3d3d;
     opacity: 1;
+}
+td:first-child {
+    display: flex;
+    align-items: center;
+}
+
+td img:first-child {
+    margin-right: 10px;
+}
+
+td img {
+    cursor: pointer;
 }
 .dept-label {
     background-color: #e9fea5;

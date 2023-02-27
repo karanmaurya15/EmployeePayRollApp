@@ -18,7 +18,7 @@ header{
 }
 .form{
     background-color: #ffffff;
-    width:55%;
+    width:60%;
     margin: 10px auto;
 }
 body{
@@ -38,13 +38,14 @@ body{
 }
 .space{
     display: flex;
+    flex-wrap: wrap;
 }
 #name{
-    width: 380px;
+    width: 495px;
     height: 25px;
     background: #FFFFFF;
     border: 1px solid #BDBDBD; 
-    margin-left: 34px;
+    margin-left: 30px;
 }
 .Image{
     display: flex;
@@ -76,10 +77,10 @@ option,select{
 {
     display: flex;
     width: 20%;
-    margin-left: 12px;
+    margin-left: 10px;
 }
 .Salary{
-    width: 400px;
+    width: 340px;
     height: 30px;
     margin-left: 30px;
     background: #FFFFFF ;
@@ -116,7 +117,7 @@ a, .submit, .reset
 }
 .buttons
 {
-    width: 690px;
+    width: 605px;
     text-align: right;
 }
 .submit, .reset
