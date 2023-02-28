@@ -17,9 +17,10 @@ $.ajax({
             row.append($('<td>').text(employee.startDate));
             var actions = $('<td>');
 
-            actions.append($('<img>').attr('src', '../Assets/icons/create-black-18dp.svg').click(function () {
+            actions.append($('<img>').attr('src', '../Assets/icons/create-black-18dp.svg').attr('data-id',employee.id).click(function () {
                 window.location.href = '../Templates/Updateform.html';
-                editEmployee();
+                var employeeId = $(this).attr('data-id');
+                editEmployee(employeeId);
             }));
             actions.append($('<img>').attr('src', '../Assets/icons/delete-black-18dp.svg').attr('data-id', employee.id).click(function () {
                 var employeeId = $(this).attr('data-id');
