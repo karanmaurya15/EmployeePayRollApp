@@ -9,7 +9,6 @@ function SubmitForm() {
   console.log(selectedGender);
 
   var selectedDepartment = $('input[name="dept"]:checked').val();
-
   console.log(selectedDepartment);
 
   var salary = $('#salary').val();
