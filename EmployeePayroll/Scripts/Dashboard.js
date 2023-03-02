@@ -42,9 +42,9 @@ $(document).ready(function () {
 function editEmployee(employeeId) {
     console.log(employeeId);
     localStorage.setItem('id', employeeId);
-   }
-  
-  
+}
+
+
 function deleteEmployee(employeeId) {
     $.ajax({
         url: 'http://localhost:3000/employee/' + employeeId,

@@ -62,7 +62,7 @@ function UpdateForm(employeeId) {
   console.log(reqPayLoad);
 
   $.ajax({
-    url: 'http://localhost:3000/employee/' + employeeId,
+    url: 'http://localhost:3000/employee/' + localStorage.getItem('id'),
     type: 'PUT',
     dataType: 'json',
     data: reqPayLoad,

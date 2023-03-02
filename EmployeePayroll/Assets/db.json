@@ -29,26 +29,6 @@
       "startDate": "16 Oct 2022",
       "notes": "ss",
       "id": 3
-    },
-    {
-      "name": "Karan Kushwaha",
-      "profileUrl": "../Assets/profile-images/Pic-3.png",
-      "gender": "Male",
-      "departMent": "Engineer",
-      "salary": "50000",
-      "startDate": "15 Aug 2020",
-      "notes": "KK",
-      "id": 4
-    },
-    {
-      "name": "bjnhbjhj",
-      "profileUrl": "../Assets/profile-images/Pic-2.png",
-      "gender": "Male",
-      "departMent": "HR",
-      "salary": "35000",
-      "startDate": "19 Nov 2021",
-      "notes": "gnhgn ",
-      "id": 5
     }
   ]
 }
